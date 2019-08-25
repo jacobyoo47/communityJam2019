@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0d9b1bb9-c995-40b3-b47b-ff11bc370e83",
+            "Value": {
+                "id": "5c465ad3-1e9b-4f8a-9376-e471acaab036",
+                "resourcePath": "views\\0d9b1bb9-c995-40b3-b47b-ff11bc370e83.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "13dc49ec-8de3-4434-a34b-8f17dcf0963f",
             "Value": {
                 "id": "692e68a4-b0cf-4d3c-9ddd-c05435a292bd",
@@ -100,6 +108,30 @@
                 "id": "f9c5b15c-f2cc-4178-a2c2-00444106ec6b",
                 "resourcePath": "sprites\\s_L_flat\\s_L_flat.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7bbe47bd-d7b9-4a02-b7dd-f019884aefb5",
+            "Value": {
+                "id": "cf93d345-02a0-40ad-af51-38ff8eed4ab7",
+                "resourcePath": "sprites\\s_I_side_NS\\s_I_side_NS.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7e83ef9a-9811-4db3-8fb1-7bcbebd0fa39",
+            "Value": {
+                "id": "ce9b8373-f092-4844-9401-8dcdceac09fb",
+                "resourcePath": "sprites\\s_I_upright\\s_I_upright.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "80dd5021-524f-4c22-a5f8-df688e263271",
+            "Value": {
+                "id": "2c59acf2-f69a-4875-97fe-0e8a338fdf32",
+                "resourcePath": "scripts\\handle_movement\\handle_movement.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -207,6 +239,14 @@
             }
         },
         {
+            "Key": "da98c6bf-ce27-4fcf-8f50-e87090c7a88a",
+            "Value": {
+                "id": "212f37cf-6bee-4cef-b3d0-3e4834db1b9e",
+                "resourcePath": "sprites\\s_I_side_EW\\s_I_side_EW.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "dc39222d-c1e2-4f87-96ef-4e4a6c22526a",
             "Value": {
                 "id": "9e68b0ce-fd3a-4cc2-94d7-7e22feebd3bd",
@@ -237,10 +277,19 @@
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
             }
+        },
+        {
+            "Key": "f7883646-ac83-40d6-a57f-d62676b17cad",
+            "Value": {
+                "id": "0b3eb2ec-2ed9-4978-88f7-ee8153e86fef",
+                "resourcePath": "sprites\\bg_simple\\bg_simple.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
-        "e0b423c2-4880-405a-9fbb-a170e80c5d4e"
+        "e0b423c2-4880-405a-9fbb-a170e80c5d4e",
+        "80dd5021-524f-4c22-a5f8-df688e263271"
     ],
     "tutorial": ""
 }
