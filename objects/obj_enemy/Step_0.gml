@@ -1,20 +1,22 @@
 switch(behavior){
 	case 0:
-		if(x < obj_test.x){
+		//follow player
+		if(x < Player.x){
 			x += spd;	
 		}
-		if(x > obj_test.x){
+		if(x > Player.x){
 			x -= spd;	
 		}
-		if(y < obj_test.y){
+		if(y < Player.y){
 			y += spd;	
 		}
-		if(y > obj_test.y){
+		if(y > Player.y){
 			y -= spd;	
 		}
 		break;
 	case 1:
-		if(abs(x - obj_test.x) > abs(y - obj_test.y)){
+		//determine whether to grow vertically or horizontally
+		if(abs(x - Player.x) >= (abs(y - Player.y - 4*global.gridSize))){
 			behavior = 2;	
 		}else{
 			behavior = 3;
@@ -22,29 +24,41 @@ switch(behavior){
 		//behavior = 2;
 		break;
 	case 2:
-		if(x < obj_test.x){
-			y = obj_test.y;
-			x = obj_test.x - 16;
+		//lock in to grid
+		x = x - x % global.gridSize;
+		y = y - y % global.gridSize;
+		instance_create_depth(x, y, 0, obj_wall);
+		//determine to grow left or right
+		if(x < Player.x){
+			//y = Player.y;
+			//x = Player.x - 16;
 			var wall = instance_create_depth(x - 16, y, 0, obj_wall);
 			wall.facing = 0;
 		}else{
-			y = obj_test.y;
-			x = obj_test.x + 16;
+			//y = Player.y;
+			//x = Player.x + 16;
 			var wall = instance_create_depth(x + 16, y, 0, obj_wall);
 			wall.facing = 2;
 		}
+		instance_destroy();
 		break;
 	case 3:
-		if(y < obj_test.y){
-			x = obj_test.x;
-			y = obj_test.y - 16;
+		//lock in to grid
+		x = x - x % global.gridSize;
+		y = y - y % global.gridSize;
+		instance_create_depth(x, y, 0, obj_wall);
+		//determine to grow up or down
+		if(y < Player.y){
+			//x = Player.x;
+			//y = Player.y - 16;
 			var wall = instance_create_depth(x, y - 16, 0, obj_wall);
 			wall.facing = 1;
 		}else{
-			x = obj_test.x;
-			y = obj_test.y + 16;
+			//x = Player.x;
+			//y = Player.y + 16;
 			var wall = instance_create_depth(x, y + 16, 0, obj_wall);
 			wall.facing = 3;
 		}
+		instance_destroy();
 		break;
 }
