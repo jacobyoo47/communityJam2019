@@ -3,6 +3,12 @@ rKey = keyboard_check(vk_right);
 uKey = keyboard_check(vk_up);
 dKey = keyboard_check(vk_down);
 
+// handle diagonal movement - prioritize vertical movement
+if (lKey && uKey) lKey = 0;
+if (lKey && dKey) lKey = 0;
+if (rKey && uKey) rKey = 0;
+if (rKey && dKey) rKey = 0;
+
 x_axis = rKey - lKey;
 y_axis = dKey - uKey;
 
