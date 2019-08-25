@@ -5,6 +5,9 @@ var newX, newY;
 //1 - up
 //2 - right
 //3 - down
+var wall = instance_create_depth(x, y, 0, obj_wall);
+show_debug_message(facing);
+wall.facing = facing;
 
 switch(facing){
 	case 0:
@@ -24,8 +27,6 @@ switch(facing){
 		newY = 16;
 		break;
 }
-var oldface = facing;
-var wall = instance_create_depth(x + newX, y + newY, 0, obj_wall);
-with(wall){
-	facing = oldface;	
-}
+wall.x = x + newX;
+wall.y = y + newY;
+//var oldface = facing;

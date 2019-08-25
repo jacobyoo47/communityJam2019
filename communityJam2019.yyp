@@ -335,6 +335,14 @@
             }
         },
         {
+            "Key": "e1ce09c6-6b9a-43d2-97d2-142ddff1e969",
+            "Value": {
+                "id": "b1977627-a7a3-4973-9107-3bed1fa2b4e5",
+                "resourcePath": "sprites\\s_rot\\s_rot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e320a117-2993-4630-abde-61284ce76578",
             "Value": {
                 "id": "f9e3bba4-233b-45d0-a83a-91fedbe66d1e",
