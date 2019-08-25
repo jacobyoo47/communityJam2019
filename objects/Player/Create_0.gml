@@ -11,5 +11,7 @@ sprite_EWside = s_I_side_EW;
 sprite_up = s_I_upright;
 
 moveDelay = 0;
+size = 4;
+canMove = true;
 
 global.gridSize = 16; // width in pixels of each unit on the grid.
