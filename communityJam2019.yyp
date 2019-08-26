@@ -287,6 +287,14 @@
             }
         },
         {
+            "Key": "6b7c4220-faa9-4c90-99e2-92dafcacd53e",
+            "Value": {
+                "id": "ef9c3d92-881d-437d-a4a9-f60a631ecc45",
+                "resourcePath": "objects\\obj_time_turret\\obj_time_turret.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "6d1b894e-7b9f-4dc7-8480-bae997105fde",
             "Value": {
                 "id": "7a89da6b-e92d-4fca-8d4c-4d92257fad55",
