@@ -9,7 +9,7 @@ if (c_orient == orient.side_NS) {
 		animate_movement(anim_2, x-grid_size, y, orient.side_NS);
 	}
 	if (y_axis > 0 && handle_col(1) && !inMotion) {
-		animate_movement(anim_1, x, y+grid_size*size, orient.up);
+		animate_movement(anim_2, x, y+grid_size*size, orient.up);
 	}
 	if (y_axis < 0 && handle_col(0) && !inMotion) {
 		animate_movement(anim_1, x, y-grid_size, orient.up);

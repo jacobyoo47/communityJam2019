@@ -6,12 +6,12 @@ enum orient {
 
 c_orient = orient.side_NS;
 
-sprite_NSside = s_I_side_NS4;
-sprite_EWside = s_I_side_EW4;
+sprite_NSside = s_4_NS_n;
+sprite_EWside = s_4_EW_n;
 sprite_up = s_I_upright;
 
-anim_1 = s_4rot1;
-anim_2 = s_4rot2;
+anim_1 = s_4_NS_rotupright_N;
+anim_2 = s_4_NS_rotupright_S;
 
 moveDelay = 0;
 bulletDelay = 0;
