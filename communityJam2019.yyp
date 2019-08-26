@@ -170,7 +170,7 @@
             "Key": "3014abf0-b370-4e50-986f-9011193c09b1",
             "Value": {
                 "id": "5a093643-b962-4513-ad2b-65f101f00cfd",
-                "resourcePath": "sprites\\s_2_rotleft\\s_2_rotleft.yy",
+                "resourcePath": "sprites\\s_2_NS_rotleft\\s_2_NS_rotleft.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -346,7 +346,7 @@
             "Key": "62ea066c-0876-4c48-9a32-c6111904c795",
             "Value": {
                 "id": "e2f251ae-b929-4d39-8c75-637b3ec536c2",
-                "resourcePath": "sprites\\s_3_rotright\\s_3_rotright.yy",
+                "resourcePath": "sprites\\s_3_NS_rotright\\s_3_NS_rotright.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -610,7 +610,7 @@
             "Key": "b6d42d68-7e16-4d96-a232-2bb4bd84173f",
             "Value": {
                 "id": "296753e2-8385-409b-a2b3-41880bfd46d6",
-                "resourcePath": "sprites\\s_2_rotright\\s_2_rotright.yy",
+                "resourcePath": "sprites\\s_2_NS_rotright\\s_2_NS_rotright.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -690,7 +690,7 @@
             "Key": "c3f30938-01ed-4f44-adfc-68e76e7aa08f",
             "Value": {
                 "id": "889d5104-ca79-4933-a28c-384813cd2dc4",
-                "resourcePath": "sprites\\s_3_rotleft\\s_3_rotleft.yy",
+                "resourcePath": "sprites\\s_3_NS_rotleft\\s_3_NS_rotleft.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -794,7 +794,7 @@
             "Key": "d43a85a0-f1d5-4f32-b6d7-16a72a7e6c15",
             "Value": {
                 "id": "f34efb65-2384-41ce-b51d-4f2e73ee472f",
-                "resourcePath": "sprites\\s_I_side_EW2\\s_I_side_EW2.yy",
+                "resourcePath": "sprites\\s_2_EW_n\\s_2_EW_n.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -954,7 +954,7 @@
             "Key": "fbd5cb4d-b957-42ec-9f72-36451ab5d2fe",
             "Value": {
                 "id": "ceb44664-f6a3-40c0-a6f8-609a36ab1077",
-                "resourcePath": "sprites\\s_I_side_NS2\\s_I_side_NS2.yy",
+                "resourcePath": "sprites\\s_2_NS_n\\s_2_NS_n.yy",
                 "resourceType": "GMSprite"
             }
         },

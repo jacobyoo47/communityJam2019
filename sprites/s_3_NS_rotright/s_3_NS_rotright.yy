@@ -2,7 +2,7 @@
     "id": "62ea066c-0876-4c48-9a32-c6111904c795",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "s_3_rotright",
+    "name": "s_3_NS_rotright",
     "For3D": false,
     "HTile": false,
     "VTile": false,

@@ -21,32 +21,79 @@ switch (size) {
 		new_EW_nspin_1 = s_4_EW_rotup;
 		new_EW_nspin_2 = s_4_EW_rotdown;
 		break;
-	/*case 3: comment out until new sprites for other sizes are added
-		new_NS = s_I_side_NS3;
-		new_EW = s_I_side_EW3;
-		new_anim1 = s_3rot1;
-		new_anim2 = s_3rot2;
+	case 3: 
+		new_NS = s_3_NS_n;
+		new_EW = s_3_EW_n;
+		
+		new_NS_rotupr_N = s_3_NS_rotupright_N;
+		new_NS_rotupr_S = s_3_NS_rotupright_S;
+		new_NS_rotdwr_N = s_3_NS_rotdownward_N;
+		new_NS_rotdwr_S = s_3_NS_rotdownward_S;
+		new_NS_nspin_1 = s_3_NS_rotleft;
+		new_NS_nspin_2 = s_3_NS_rotright;
+		
+		new_EW_rotupr_E = s_3_EW_rotupright_E;
+		new_EW_rotupr_W = s_3_EW_rotupright_W;
+		new_EW_rotdwr_E = s_3_EW_rotdownward_E;
+		new_EW_rotdwr_W = s_3_EW_rotdownward_W;
+		new_EW_nspin_1 = s_3_EW_rotup;
+		new_EW_nspin_2 = s_3_EW_rotdown;
 		break;
 	case 2:
-		new_NS = s_I_side_NS2;
-		new_EW = s_I_side_EW2;
-		new_anim1 = s_2rot1;
-		new_anim2 = s_2rot2;
+		new_NS = s_2_NS_n;
+		new_EW = s_2_EW_n;
+		
+		new_NS_rotupr_N = s_2_NS_rotupright_N;
+		new_NS_rotupr_S = s_2_NS_rotupright_S;
+		new_NS_rotdwr_N = s_2_NS_rotdownward_N;
+		new_NS_rotdwr_S = s_2_NS_rotdownward_S;
+		new_NS_nspin_1 = s_2_NS_rotleft;
+		new_NS_nspin_2 = s_2_NS_rotright;
+		
+		new_EW_rotupr_E = s_2_EW_rotupright_E;
+		new_EW_rotupr_W = s_2_EW_rotupright_W;
+		new_EW_rotdwr_E = s_2_EW_rotdownward_E;
+		new_EW_rotdwr_W = s_2_EW_rotdownward_W;
+		new_EW_nspin_1 = s_2_EW_rotup;
+		new_EW_nspin_2 = s_2_EW_rotdown;
 		break;
 	case 1:
-		new_NS = s_I_upright;
+		new_NS = s_I_upright
 		new_EW = s_I_upright;
-		new_anim1 = s_1rot1;
-		new_anim2 = s_1rot2;
+		
+		new_NS_rotupr_N = s_1_NS_rotupright_N;
+		new_NS_rotupr_S = s_1_NS_rotupright_S;
+		new_NS_rotdwr_N = s_1_NS_rotdownward_N;
+		new_NS_rotdwr_S = s_1_NS_rotdownward_S;
+		new_NS_nspin_1 = s_1_NS_rotleft;
+		new_NS_nspin_2 = s_1_NS_rotright;
+		
+		new_EW_rotupr_E = s_1_EW_rotupright_E;
+		new_EW_rotupr_W = s_1_EW_rotupright_W;
+		new_EW_rotdwr_E = s_1_EW_rotdownward_E;
+		new_EW_rotdwr_W = s_1_EW_rotdownward_W;
+		new_EW_nspin_1 = s_1_EW_rotup;
+		new_EW_nspin_2 = s_1_EW_rotdown;
 		break;
 	case 0:
-		// game ends if size reaches 0
-		game_end();
-		new_NS = s_I_upright;
-		new_EW = s_I_upright;
-		new_anim1 = s_1rot1;
-		new_anim2 = s_1rot2;
-		break;*/
+		new_NS = s_4_NS_n;
+		new_EW = s_4_EW_n;
+		
+		new_NS_rotupr_N = s_4_NS_rotupright_N;
+		new_NS_rotupr_S = s_4_NS_rotupright_S;
+		new_NS_rotdwr_N = s_4_NS_rotdownward_N;
+		new_NS_rotdwr_S = s_4_NS_rotdownward_S;
+		new_NS_nspin_1 = s_4_NS_rotleft;
+		new_NS_nspin_2 = s_4_NS_rotright;
+		
+		new_EW_rotupr_E = s_4_EW_rotupright_E;
+		new_EW_rotupr_W = s_4_EW_rotupright_W;
+		new_EW_rotdwr_E = s_4_EW_rotdownward_E;
+		new_EW_rotdwr_W = s_4_EW_rotdownward_W;
+		new_EW_nspin_1 = s_4_EW_rotup;
+		new_EW_nspin_2 = s_4_EW_rotdown;
+		game_end(); // for now, game ends when size 0 is reached.
+		break;
 }
 
 sprite_EWside = new_EW;
