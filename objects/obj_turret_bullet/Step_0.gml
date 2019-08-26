@@ -18,3 +18,6 @@ if (place_meeting(x, y, Player)) {
 	Player.changeSize = true;
 	instance_destroy();
 }
+if (place_meeting(x, y, obj_collision)) {
+	instance_destroy();
+}
