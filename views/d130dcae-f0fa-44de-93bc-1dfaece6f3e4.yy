@@ -17,7 +17,9 @@
         "28141f77-63eb-42ea-881b-98608c7e845c",
         "6fd1c8e2-82a9-4498-a779-93477ff44327",
         "d1eb8647-07af-47e0-a3ba-2e242eeba8d5",
-        "53a4515f-8459-4f1c-8d1b-c081fff7363a"
+        "53a4515f-8459-4f1c-8d1b-c081fff7363a",
+        "f0ec89e5-f199-4ba0-8f17-8a3998962323",
+        "379ae8fd-8cbd-4b30-97ac-43af26617daf"
     ],
     "filterType": "GMSprite",
     "folderName": "size2",
