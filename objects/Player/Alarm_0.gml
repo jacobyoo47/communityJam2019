@@ -1,11 +1,11 @@
 /// @description GRID BASED MOVEMENT
 if (x != anim_targetX) {
-	if (x < anim_targetX) x+=2;
-	else if (x > anim_targetX) x-=2;
+	if (x < anim_targetX) x+=1;
+	else if (x > anim_targetX) x-=1;
 }
 if (y != anim_targetY) {
-	if (y < anim_targetY) y+=2;
-	else if (y > anim_targetY) y-=2;
+	if (y < anim_targetY) y+=1;
+	else if (y > anim_targetY) y-=1;
 }
 
 if (x != anim_targetX) {

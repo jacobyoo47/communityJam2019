@@ -65,15 +65,15 @@ switch (size) {
 		new_NS_rotupr_S = s_1_NS_rotupright_S;
 		new_NS_rotdwr_N = s_1_NS_rotdownward_N;
 		new_NS_rotdwr_S = s_1_NS_rotdownward_S;
-		new_NS_nspin_1 = s_1_NS_rotleft;
-		new_NS_nspin_2 = s_1_NS_rotright;
+		new_NS_nspin_1 = s_1_rotleft;
+		new_NS_nspin_2 = s_1_rotright;
 		
 		new_EW_rotupr_E = s_1_EW_rotupright_E;
 		new_EW_rotupr_W = s_1_EW_rotupright_W;
 		new_EW_rotdwr_E = s_1_EW_rotdownward_E;
 		new_EW_rotdwr_W = s_1_EW_rotdownward_W;
-		new_EW_nspin_1 = s_1_EW_rotup;
-		new_EW_nspin_2 = s_1_EW_rotdown;
+		new_EW_nspin_1 = s_1_rotup;
+		new_EW_nspin_2 = s_1_rotdown;
 		break;
 	case 0:
 		new_NS = s_4_NS_n;

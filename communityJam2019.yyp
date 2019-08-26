@@ -423,14 +423,6 @@
             }
         },
         {
-            "Key": "6d1b894e-7b9f-4dc7-8480-bae997105fde",
-            "Value": {
-                "id": "7a89da6b-e92d-4fca-8d4c-4d92257fad55",
-                "resourcePath": "sprites\\s_3_NS_rotup\\s_3_NS_rotup.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "6fd1c8e2-82a9-4498-a779-93477ff44327",
             "Value": {
                 "id": "4b1c14bd-a290-49d3-b06a-7d87f5544c26",
@@ -655,14 +647,6 @@
             }
         },
         {
-            "Key": "b8139beb-226c-4be2-84de-99a081fdb4c5",
-            "Value": {
-                "id": "e1a98a26-6a94-4267-9ff4-1afcc0472c49",
-                "resourcePath": "sprites\\s_2_rotup\\s_2_rotup.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "b92b6f60-b374-45d5-a3bc-2b9ad048209e",
             "Value": {
                 "id": "85c9d826-8466-447f-9394-af4e8588f332",
@@ -791,14 +775,6 @@
             }
         },
         {
-            "Key": "cdc25ad5-9560-4de1-b657-5f94e352bf7d",
-            "Value": {
-                "id": "7454eab8-34d4-4aed-a363-3a3ed4b96302",
-                "resourcePath": "sprites\\s_3_NS_rotdown\\s_3_NS_rotdown.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "ceb18b97-24b4-4fd5-9cba-23fef37bd5ed",
             "Value": {
                 "id": "dc71c012-882b-4be2-b553-a9bb4d63d5c0",
@@ -831,26 +807,10 @@
             }
         },
         {
-            "Key": "d24905c4-b515-46f2-821a-8f09445ba0fa",
-            "Value": {
-                "id": "77cb6957-aac4-4c76-a945-79c4c910ddb5",
-                "resourcePath": "sprites\\s_1_EW_rotup\\s_1_EW_rotup.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "d43a85a0-f1d5-4f32-b6d7-16a72a7e6c15",
             "Value": {
                 "id": "f34efb65-2384-41ce-b51d-4f2e73ee472f",
                 "resourcePath": "sprites\\s_2_EW_n\\s_2_EW_n.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "d54c2bd1-3762-48f8-866e-74a77fad7dff",
-            "Value": {
-                "id": "6b9ff600-f79b-4777-96ea-7cbfccb8e682",
-                "resourcePath": "sprites\\s_2_rotdown\\s_2_rotdown.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -884,14 +844,6 @@
                 "id": "9e68b0ce-fd3a-4cc2-94d7-7e22feebd3bd",
                 "resourcePath": "views\\dc39222d-c1e2-4f87-96ef-4e4a6c22526a.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "de20a90e-064c-405c-8adc-db365582e1c3",
-            "Value": {
-                "id": "c908b577-f0c0-46d8-8d68-7e80e7e2af55",
-                "resourcePath": "sprites\\s_1_EW_rotdown\\s_1_EW_rotdown.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
