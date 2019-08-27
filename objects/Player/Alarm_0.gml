@@ -13,6 +13,7 @@ if (x != anim_targetX) {
 } else if (y != anim_targetY) {
 	alarm[0] = 1;
 } else {
+	//c_orient = new_orient;
 	handle_size_change();
 	x = target_x;
 	y = target_y;

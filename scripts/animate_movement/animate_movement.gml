@@ -17,6 +17,6 @@ target_y = newY;
 anim_targetX = new_anim_targetX;
 anim_targetY = new_anim_targetY;
 sprite_index = anim;
+c_orient = newOrient;
 alarm[0] = 1;
 inMotion = true;
-c_orient = newOrient;

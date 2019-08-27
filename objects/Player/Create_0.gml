@@ -36,6 +36,7 @@ inMotion = false;
 bullet_velocity = 8;
 
 alarm_frame = 0; // for grid based animation movement
+new_orient = -1;
 
 // grid based movement:
 target_x = -1;
