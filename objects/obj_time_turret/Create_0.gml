@@ -1,1 +1,1 @@
-alarm[0] = delay;
+alarm[0] = delay + first_delay;

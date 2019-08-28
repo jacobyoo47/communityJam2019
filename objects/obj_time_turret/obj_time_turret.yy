@@ -125,6 +125,20 @@
             "value": "3",
             "varName": "bullet_velocity",
             "varType": 1
+        },
+        {
+            "id": "8fee64a6-c7ef-41ca-a7d0-ccd02c3c8d04",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "first_delay",
+            "varType": 0
         }
     ],
     "solid": false,

@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "12de2755-f783-4791-a575-db5cbddb7a82",
+            "Value": {
+                "id": "64fa1400-6bc1-44b9-8c33-902e4f51487e",
+                "resourcePath": "notes\\note0.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "13dc49ec-8de3-4434-a34b-8f17dcf0963f",
             "Value": {
                 "id": "692e68a4-b0cf-4d3c-9ddd-c05435a292bd",
@@ -306,7 +314,7 @@
             "Key": "49bcee3c-d545-49fc-bf77-e58d8f4ef8ef",
             "Value": {
                 "id": "f155ee6e-64cd-4dfc-9ee8-9564ec3ae77e",
-                "resourcePath": "objects\\obj_blackhole\\obj_blackhole.yy",
+                "resourcePath": "objects\\obj_blackhole_s1\\obj_blackhole_s1.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -331,6 +339,14 @@
             "Value": {
                 "id": "14ea4c54-3932-4bfe-a0e4-ca2f737e320e",
                 "resourcePath": "sprites\\s_2_EW_rotdownward_W\\s_2_EW_rotdownward_W.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "55e0e805-7c95-4f87-ba3e-3f60c865f534",
+            "Value": {
+                "id": "2a308f57-d147-47a8-8243-68b37ef9ebc8",
+                "resourcePath": "sprites\\s_blackhole_s2\\s_blackhole_s2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -908,6 +924,14 @@
                 "id": "7363748e-9c60-483f-8621-195c5aaa86a8",
                 "resourcePath": "sprites\\s_1_rotleft\\s_1_rotleft.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e31ab95c-70d8-4020-ad06-cf10575a2562",
+            "Value": {
+                "id": "3cbb6df3-1af1-44a9-945b-019e766c89fc",
+                "resourcePath": "objects\\obj_blackhole_s2_EW\\obj_blackhole_s2_EW.yy",
+                "resourceType": "GMObject"
             }
         },
         {

@@ -2,7 +2,7 @@
     "id": "49bcee3c-d545-49fc-bf77-e58d8f4ef8ef",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_blackhole",
+    "name": "obj_blackhole_s1",
     "eventList": [
         {
             "id": "4b163923-a1c8-47f5-b793-63c9f90ad0d3",
