@@ -303,6 +303,14 @@
             }
         },
         {
+            "Key": "49bcee3c-d545-49fc-bf77-e58d8f4ef8ef",
+            "Value": {
+                "id": "f155ee6e-64cd-4dfc-9ee8-9564ec3ae77e",
+                "resourcePath": "objects\\obj_blackhole\\obj_blackhole.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5065f174-6de6-4c3d-919c-4e4ec651222c",
             "Value": {
                 "id": "b4062a78-7f5d-4d87-ab42-b633ff5c3c99",
@@ -636,6 +644,14 @@
                 "id": "90775345-d973-4cba-9cad-063b7c742868",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ab9635c1-48ec-4355-b705-285eef08b03a",
+            "Value": {
+                "id": "d2e06c7b-d806-4e8c-99b8-c15a1dd9212c",
+                "resourcePath": "sprites\\s_blackhole\\s_blackhole.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
