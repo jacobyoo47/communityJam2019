@@ -1,4 +1,4 @@
-show_debug_message(c_orient);
+//show_debug_message(c_orient);
 get_input();
 
 if (canMove) handle_movement();

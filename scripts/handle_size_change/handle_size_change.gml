@@ -2,7 +2,7 @@ var new_NS, new_EW,
 new_NS_rotupr_N, new_NS_rotupr_S, new_NS_rotdwr_N, new_NS_rotdwr_S, new_NS_nspin_1, new_NS_nspin_2,
 new_EW_rotupr_E, new_EW_rotupr_W, new_EW_rotdwr_E, new_EW_rotdwr_W, new_EW_nspin_1, new_EW_nspin_2;
 
-switch (size) {
+switch (Player.size) {
 	case 4:
 		new_NS = s_4_NS_n;
 		new_EW = s_4_EW_n;
@@ -113,7 +113,7 @@ EW_rotdownward_W = new_EW_rotdwr_W;
 EW_neutralspin_1 = new_EW_nspin_1;
 EW_neutralspin_2 = new_EW_nspin_2;
 
-switch (c_orient) {
+switch (Player.c_orient) {
 	case orient.side_EW:
 		sprite_index = new_EW;
 		break;

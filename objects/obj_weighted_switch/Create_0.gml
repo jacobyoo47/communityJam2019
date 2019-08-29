@@ -1,3 +1,4 @@
+startup = true;
 
 s1_col = c_white;
 s2_col = c_yellow;
