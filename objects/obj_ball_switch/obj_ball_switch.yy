@@ -1,21 +1,41 @@
 {
-    "id": "c03bb6c8-c2b4-4aa8-ac4b-b7160352c4ea",
+    "id": "98d691dd-e938-4466-997c-8b5233fc110e",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_turret_bullet",
+    "name": "obj_ball_switch",
     "eventList": [
         {
-            "id": "eeb7888b-b161-414d-b9cb-650d33eb00f5",
+            "id": "82515dbd-d614-4ac7-99a8-ebe87f3db729",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "98d691dd-e938-4466-997c-8b5233fc110e"
+        },
+        {
+            "id": "cd1a0857-9bfb-402b-a4a0-ad2671550a11",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "c03bb6c8-c2b4-4aa8-ac4b-b7160352c4ea"
+            "m_owner": "98d691dd-e938-4466-997c-8b5233fc110e"
+        },
+        {
+            "id": "4cb447f4-fcd6-4765-8928-c77288c2efb8",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "98d691dd-e938-4466-997c-8b5233fc110e"
         }
     ],
-    "maskSpriteId": "479f477f-093a-4ece-9186-e5b03bf3326c",
+    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
@@ -33,7 +53,7 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "d936cf60-005f-4a52-a187-cac0436d922d",
+            "id": "1330694e-b1ac-4ea5-bf60-db5090d487ce",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -43,11 +63,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "velocity",
-            "varType": 1
+            "varName": "switch_on",
+            "varType": 3
         },
         {
-            "id": "959a12c7-5d22-4a61-aeb6-7d1c0ebfd212",
+            "id": "abf41d70-9344-475d-b310-68c55477ec61",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -56,12 +76,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "0",
-            "varName": "dir",
+            "value": "-1",
+            "varName": "target_door_id",
             "varType": 1
         }
     ],
     "solid": false,
-    "spriteId": "479f477f-093a-4ece-9186-e5b03bf3326c",
+    "spriteId": "11872cba-b21f-4208-9a44-62183747a855",
     "visible": true
 }

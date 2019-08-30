@@ -1,5 +1,5 @@
 if (current_dist < target_dist) {
-	switch (dir) {
+	switch (bullet_dir) {
 		case 0: // up
 			y -= ball_speed;
 			break;
