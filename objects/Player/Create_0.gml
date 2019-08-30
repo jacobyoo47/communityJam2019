@@ -32,6 +32,7 @@ size = 4;
 changeSize = false;
 canMove = true;
 inMotion = false;
+m_dir = 0; // move direction for obj_ball
 
 bullet_velocity = 8;
 

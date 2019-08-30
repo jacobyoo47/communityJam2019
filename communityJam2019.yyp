@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "8c1af258-1337-4fe8-8b07-1853f1d25e84",
+            "Value": {
+                "id": "9bc8fbe5-0f9d-4a50-85c2-01d7f1f4ca9a",
+                "resourcePath": "sprites\\s_cube_ball\\s_cube_ball.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8c61b013-e50e-49a3-b14f-70032dd1f0e0",
             "Value": {
                 "id": "a8c3d10e-adca-4ff3-b523-5b8c620dcbf6",
@@ -716,6 +724,14 @@
                 "id": "158412ed-1989-45ca-a6cc-f22c3a9fa9b1",
                 "resourcePath": "scripts\\handle_size_change\\handle_size_change.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "a466cdf3-3b9d-4c79-bcf4-ba0177c90211",
+            "Value": {
+                "id": "5e28c0fb-3640-4adc-887d-8a2f87f08124",
+                "resourcePath": "objects\\obj_cube_ball\\obj_cube_ball.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -891,6 +907,14 @@
             "Value": {
                 "id": "117cb0f3-9586-497f-9d6c-802d8d3fd626",
                 "resourcePath": "sprites\\s_3_EW_rotupright_W\\s_3_EW_rotupright_W.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c9361ae7-164b-4b61-b59a-27e88e51c750",
+            "Value": {
+                "id": "b8584620-637c-4443-8ea7-d26142b431ac",
+                "resourcePath": "sprites\\s_ball_colmask\\s_ball_colmask.yy",
                 "resourceType": "GMSprite"
             }
         },
