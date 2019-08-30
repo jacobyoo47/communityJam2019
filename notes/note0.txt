@@ -1,0 +1,5 @@
+-Tubes that can transport the player or items
+
+-Shadow block that disappears near light
+
+-Player can roll objects around when on their side

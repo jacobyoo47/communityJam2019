@@ -38,6 +38,9 @@ bullet_velocity = 8;
 alarm_frame = 0; // for grid based animation movement
 new_orient = -1;
 
+// for tubes
+exiting = false;
+
 // grid based movement:
 target_x = -1;
 target_y = -1;
