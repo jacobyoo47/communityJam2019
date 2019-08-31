@@ -37,8 +37,9 @@ if(!blockInPlay && !gameOver){
 	loadedBlock = floor(random(7));
 }
 
-if(gameOver){
-	
+if(firstCall && gameOver){
+	alarm_set(0, 120);
+	firstCall = false;
 }
 
 // handle block collisions/movement
