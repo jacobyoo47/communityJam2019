@@ -1,5 +1,5 @@
 // handle current tetris block
-if(!blockInPlay){
+if(!blockInPlay && !gameOver){
 	blockInPlay = true;
 	switch(loadedBlock){
 		case 0:
@@ -35,6 +35,10 @@ if(!blockInPlay){
 			break;
 	}
 	loadedBlock = floor(random(7));
+}
+
+if(gameOver){
+	
 }
 
 // handle block collisions/movement

@@ -18,7 +18,8 @@
         "a95730f4-2b5b-40b9-8dde-e3995c6f8dd7",
         "59f69192-23de-47a1-8807-8a7feb85b6a5",
         "a1571a19-a135-4b93-9539-a53ff6927a2c",
-        "a2cff0a9-65f1-4141-b485-489e242b025e"
+        "a2cff0a9-65f1-4141-b485-489e242b025e",
+        "e68e471a-d9a1-4955-95f5-d20446556c45"
     ],
     "filterType": "GMSprite",
     "folderName": "tetris",
