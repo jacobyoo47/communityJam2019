@@ -1,4 +1,4 @@
-g_size = global.gridSize*2;
+g_size = 16*2;
 
 // important global var that stores current dialogue message:
 global.dialogueMessage[0] = "Test Test Test Test Test Test Test Test Test Test Test Test Test TEST TEST TEST TEST TEST TEST TEST";
