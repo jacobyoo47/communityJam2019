@@ -151,6 +151,14 @@
             }
         },
         {
+            "Key": "178d99d3-31b3-4b74-a745-84c91eec60ba",
+            "Value": {
+                "id": "9e1744ec-489a-443a-b507-aefb12261766",
+                "resourcePath": "objects\\obj_reset_ball\\obj_reset_ball.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "179a0506-48d0-44cd-ab9a-63742e3a2943",
             "Value": {
                 "id": "5c8cf27c-bdf9-4c15-8cdc-c5983185851d",
@@ -415,6 +423,14 @@
             }
         },
         {
+            "Key": "49508f68-0811-4df0-8d0c-aba03361c14d",
+            "Value": {
+                "id": "7132dd87-d089-439e-8b38-f0b2ca4567f5",
+                "resourcePath": "objects\\obj_room_changer\\obj_room_changer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "49bcee3c-d545-49fc-bf77-e58d8f4ef8ef",
             "Value": {
                 "id": "f155ee6e-64cd-4dfc-9ee8-9564ec3ae77e",
@@ -479,6 +495,14 @@
             }
         },
         {
+            "Key": "58476646-58cc-449a-99c2-dd7734b3d1b3",
+            "Value": {
+                "id": "c4bc9993-9415-40d4-84ca-566dc10aa960",
+                "resourcePath": "sprites\\s_cube_ball\\s_cube_ball.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "592869c1-7eb8-4043-b747-43fb2fc86e2a",
             "Value": {
                 "id": "76f09607-b23d-4d4d-9ed7-30308e9fb3af",
@@ -500,6 +524,14 @@
                 "id": "b1a34098-de12-44ff-9df7-fb305f06154c",
                 "resourcePath": "sprites\\s_3_NS_rotupright_S\\s_3_NS_rotupright_S.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "59f44def-2f9a-4fff-b51d-a409dd6b7653",
+            "Value": {
+                "id": "ad6bae48-7c0d-4130-bca8-0363d5ccf619",
+                "resourcePath": "objects\\obj_Player_gun\\obj_Player_gun.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -719,6 +751,14 @@
             }
         },
         {
+            "Key": "7d39de70-b48b-4239-8c77-22ac357a614f",
+            "Value": {
+                "id": "eaa917e3-192c-4e96-823b-6f0750707add",
+                "resourcePath": "rooms\\area1\\area1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "7d71b67f-bfbe-4660-8275-ba301e55f2f2",
             "Value": {
                 "id": "6f2f8a3a-f530-423d-86ae-e05932c6e61f",
@@ -740,6 +780,14 @@
                 "id": "ce9b8373-f092-4844-9401-8dcdceac09fb",
                 "resourcePath": "sprites\\s_I_upright\\s_I_upright.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7ea91198-d9a5-47f7-82a5-f08f5ca972c0",
+            "Value": {
+                "id": "f57f523e-f311-432e-8802-3bc5c9bc11a3",
+                "resourcePath": "scripts\\check_ball_col\\check_ball_col.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -823,14 +871,6 @@
             }
         },
         {
-            "Key": "8c1af258-1337-4fe8-8b07-1853f1d25e84",
-            "Value": {
-                "id": "9bc8fbe5-0f9d-4a50-85c2-01d7f1f4ca9a",
-                "resourcePath": "sprites\\s_cube_ball\\s_cube_ball.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "8c61b013-e50e-49a3-b14f-70032dd1f0e0",
             "Value": {
                 "id": "a8c3d10e-adca-4ff3-b523-5b8c620dcbf6",
@@ -892,6 +932,14 @@
                 "id": "12f8b04e-0c50-43b4-bb94-2f4a4728cd6a",
                 "resourcePath": "views\\91059d8f-33ac-4c0d-afaf-030dbcfa729e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "921c420d-209c-4e5f-b471-f28d0f9b6b59",
+            "Value": {
+                "id": "ca959d50-d5fc-425b-94a2-93a6687dc36b",
+                "resourcePath": "sprites\\s_ball_reset\\s_ball_reset.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -971,6 +1019,14 @@
             "Value": {
                 "id": "10daac58-6f34-4498-ac6a-816cb95c9ba3",
                 "resourcePath": "sprites\\s_tetCollision\\s_tetCollision.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a229730b-b3ac-4863-b0fe-eab4ee997956",
+            "Value": {
+                "id": "c8b6a754-d3bf-484f-84fe-b456ef1c6787",
+                "resourcePath": "sprites\\s_p_gun\\s_p_gun.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1626,7 +1682,8 @@
         "ffbd140d-c1a6-42d2-ad7c-4f7e689d4b93",
         "462d2228-82fd-4365-9fd7-edf574f45378",
         "18805503-6d40-484b-b131-8f3c1cf6701d",
-        "9b72c6d9-2ed9-4553-9bf5-3db3a2151326"
+        "9b72c6d9-2ed9-4553-9bf5-3db3a2151326",
+        "7ea91198-d9a5-47f7-82a5-f08f5ca972c0"
     ],
     "tutorial": ""
 }

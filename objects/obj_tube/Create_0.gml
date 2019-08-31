@@ -12,6 +12,9 @@ exit_dir = 0;
 tube_col = instance_create_layer(x, y, "Collisions", obj_collision);
 with (tube_col) visible = false;
 
+// ball transfer
+current_ball = 0;
+
 // debugging
 
 //show_debug_message("ID: " + string(tube_id) + " with targetID " + string(exit_tube.tube_id));

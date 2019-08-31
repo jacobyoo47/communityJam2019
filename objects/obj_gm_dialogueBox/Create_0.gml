@@ -1,7 +1,9 @@
 g_size = global.gridSize*2;
 
 // important global var that stores current dialogue message:
-global.dialogueMessage = "Test Test Test Test Test Test Test Test Test Test Test Test Test TEST TEST TEST TEST TEST TEST TEST";
+global.dialogueMessage[0] = "Test Test Test Test Test Test Test Test Test Test Test Test Test TEST TEST TEST TEST TEST TEST TEST";
+global.dialogueSize = 1;
+current_page = 0;
 
 global.viewScale = 2;
 screen_width = display_get_gui_width();
