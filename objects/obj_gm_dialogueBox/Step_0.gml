@@ -21,6 +21,7 @@ if (inDialogue && text_counter < total_message_length) {
 	} else if (keyboard_check_pressed(ord("Z"))) {
 		Player.canMove = true;
 		inDialogue = false;
+		current_page = 0;
 	}
 }
 
