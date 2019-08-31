@@ -12,7 +12,11 @@
         "273dfe26-e011-48f2-9df4-bb6db1804a69",
         "792a82ac-8dbd-4f3e-bfbe-8d31f85ec561",
         "665129ee-80d5-4682-884e-49fa23a9f78f",
-        "715ae5c9-c8f3-4cc8-a192-a96a8e0304ba"
+        "715ae5c9-c8f3-4cc8-a192-a96a8e0304ba",
+        "a86afd05-dc55-4528-ab8c-1ae4f3990ca8",
+        "7d71b67f-bfbe-4660-8275-ba301e55f2f2",
+        "9cea111d-3e59-43c8-88d4-98e8e4f0ff39",
+        "bf3c2c8d-4bac-4482-b59c-c73210eb3f0b"
     ],
     "filterType": "GMObject",
     "folderName": "tetris",

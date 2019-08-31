@@ -1,12 +1,12 @@
 {
-    "id": "792a82ac-8dbd-4f3e-bfbe-8d31f85ec561",
+    "id": "9cea111d-3e59-43c8-88d4-98e8e4f0ff39",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_tetC",
+    "name": "obj_tetL_mirror",
     "eventList": [
         
     ],
-    "maskSpriteId": "a95730f4-2b5b-40b9-8dde-e3995c6f8dd7",
+    "maskSpriteId": "87ad7ec4-f1dd-43b2-b6b7-db0589ef8736",
     "overriddenProperties": null,
     "parentObjectId": "9fb9046f-e2ff-4cf3-9c88-5ed8b98ab045",
     "persistent": false,
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "f2cd28df-88c4-4613-a82b-6c5bd035b417",
+    "spriteId": "02030ac5-3dc5-4bc5-9309-1e43437e7dfc",
     "visible": true
 }

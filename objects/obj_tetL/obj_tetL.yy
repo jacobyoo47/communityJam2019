@@ -6,7 +6,7 @@
     "eventList": [
         
     ],
-    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "maskSpriteId": "d57d32bd-ad7e-4003-afac-5ecfd7527654",
     "overriddenProperties": null,
     "parentObjectId": "9fb9046f-e2ff-4cf3-9c88-5ed8b98ab045",
     "persistent": false,
