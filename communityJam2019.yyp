@@ -959,6 +959,14 @@
             }
         },
         {
+            "Key": "ad314e3c-775e-4c8e-85ca-653cd8efe2ba",
+            "Value": {
+                "id": "f46c6e69-350d-41ac-ad62-ca34f115f401",
+                "resourcePath": "sprites\\s_DialogueBox\\s_DialogueBox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "b313bec1-9372-44be-b34c-737874eb3852",
             "Value": {
                 "id": "d3e0ad98-a707-412b-8f47-3d21c52ed785",

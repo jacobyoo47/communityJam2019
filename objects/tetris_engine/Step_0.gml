@@ -3,35 +3,35 @@ if(!blockInPlay){
 	blockInPlay = true;
 	switch(loadedBlock){
 		case 0:
-			curBlock = instance_create_depth(320 + 192, 0, -1, obj_tetI);
+			curBlock = instance_create_depth(320 + 192, 736, -1, obj_tetI);
 			blockWidth = 32;
 			blockHeight = 32*4;
 			break;
 		case 1:
-			curBlock = instance_create_depth(320 + 192, 0, -1, obj_tetS);
+			curBlock = instance_create_depth(320 + 192, 736, -1, obj_tetS);
 			blockWidth = 32*3;
 			blockHeight = 32*2;
 			break;
 		case 2:
-			curBlock = instance_create_depth(320 + 192, 0, -1, obj_tetL);
+			curBlock = instance_create_depth(320 + 192, 736, -1, obj_tetL);
 			blockWidth = 64;
 			blockHeight = 32*3;
 			break;
 		case 3:
-			curBlock = instance_create_depth(320 + 192, 0, -1, obj_tetC);
+			curBlock = instance_create_depth(320 + 192, 736, -1, obj_tetC);
 			blockWidth = 32*2;
 			blockHeight = 32*2;
 			break;
 		case 4:
-			curBlock = instance_create_depth(320 + 192, 0, -1, obj_tetS_mirror);
+			curBlock = instance_create_depth(320 + 192, 736, -1, obj_tetS_mirror);
 			//blockWidth = 32*3;
 			//blockHeight = 32*2;
 			break;
 		case 5:
-			curBlock = instance_create_depth(320 + 192, 0, -1, obj_tetL_mirror);
+			curBlock = instance_create_depth(320 + 192, 736, -1, obj_tetL_mirror);
 			break;
 		case 6:
-			curBlock = instance_create_depth(320 + 192, 0, -1, obj_tetK);
+			curBlock = instance_create_depth(320 + 192, 736, -1, obj_tetK);
 			break;
 	}
 	loadedBlock = floor(random(7));
