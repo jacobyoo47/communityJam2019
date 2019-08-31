@@ -3,7 +3,7 @@ var c_x, c_y;
 c_x = camera_get_view_x(gm_camera);
 c_y = camera_get_view_y(gm_camera);
 
-show_debug_message(c_x+c_width);
+//show_debug_message(c_x+c_width);
 
 // track player's position and adjust camera accordingly
 

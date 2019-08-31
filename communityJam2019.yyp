@@ -463,6 +463,14 @@
             }
         },
         {
+            "Key": "503533c1-5cb6-4038-a4c5-61737966167b",
+            "Value": {
+                "id": "6b2f0c93-e799-40ac-b2c2-5ee0997547a2",
+                "resourcePath": "objects\\obj_radio\\obj_radio.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5065f174-6de6-4c3d-919c-4e4ec651222c",
             "Value": {
                 "id": "b4062a78-7f5d-4d87-ab42-b633ff5c3c99",
@@ -740,6 +748,14 @@
                 "id": "dec62ba6-b184-4a34-806d-ee5dbee43ab1",
                 "resourcePath": "sprites\\s_enemy\\s_enemy.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7b2c8885-f2db-43b7-8d9d-ad9959b12082",
+            "Value": {
+                "id": "2490b33a-03cd-4c15-bed9-b95f5dbeed52",
+                "resourcePath": "objects\\radio_engine\\radio_engine.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1255,6 +1271,14 @@
             }
         },
         {
+            "Key": "c78316de-3e30-4122-a4a8-7075994920f5",
+            "Value": {
+                "id": "7080a73f-908d-4378-bd8f-81c14e14e362",
+                "resourcePath": "scripts\\player_death\\player_death.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "c880eb01-9849-4ee7-8393-2122f4bbe46f",
             "Value": {
                 "id": "117cb0f3-9586-497f-9d6c-802d8d3fd626",
@@ -1388,6 +1412,14 @@
                 "id": "f029d490-d20b-412d-b9cd-928df77c11fc",
                 "resourcePath": "fonts\\font_big\\font_big.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "da3c4c19-1198-4429-94e0-d31ef6bde3ea",
+            "Value": {
+                "id": "3b1604c9-f370-4988-b2e8-15437f2d61f9",
+                "resourcePath": "sprites\\s_radio\\s_radio.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1671,6 +1703,14 @@
             }
         },
         {
+            "Key": "fe531d59-65eb-4e00-bae9-eaef4dbd95b6",
+            "Value": {
+                "id": "a26b3776-11ea-456c-8b66-56285ef7ba99",
+                "resourcePath": "objects\\obj_blackhole_s11\\obj_blackhole_s11.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "ff4c1133-45ff-416f-a8c0-c38a3218296d",
             "Value": {
                 "id": "97c83dd1-e538-4147-b777-a1de6891892a",
@@ -1695,6 +1735,7 @@
         "50862bfb-53ab-4792-9696-1e1d9075a93d",
         "9d4b8abc-808a-4644-8855-6d5f3c6d5952",
         "45b0df31-2853-4f67-8705-6df9afcf6044",
+        "c78316de-3e30-4122-a4a8-7075994920f5",
         "ffbd140d-c1a6-42d2-ad7c-4f7e689d4b93",
         "462d2228-82fd-4365-9fd7-edf574f45378",
         "18805503-6d40-484b-b131-8f3c1cf6701d",

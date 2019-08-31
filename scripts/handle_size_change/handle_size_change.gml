@@ -94,6 +94,7 @@ switch (Player.size) {
 		new_EW_nspin_2 = s_4_EW_rotdown;
 		Player.x = current_checkpoint.x;
 		Player.y = current_checkpoint.y;
+		Player.size = 1;
 		break;
 }
 

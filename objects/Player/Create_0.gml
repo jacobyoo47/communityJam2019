@@ -42,6 +42,7 @@ alarm_frame = 0; // for grid based animation movement
 new_orient = -1;
 
 current_checkpoint = 0;
+checkpoint_size = 1;
 
 // for tubes
 exiting = false;
