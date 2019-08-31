@@ -6,4 +6,5 @@ Player.alarm[1] = 60;
 Player.c_orient = orient.up;
 Player.size = Player.checkpoint_size;
 Player.changeSize = true;
-
+audio_play_sound(au_thud, 1, false);
+obj_moves_tracker.death_count++;

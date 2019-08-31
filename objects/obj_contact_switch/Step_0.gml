@@ -1,7 +1,11 @@
-if (place_meeting(x, y, Player) && !Player.inMotion && (Player.size == 1 || Player.c_orient==orient.up)) {
+if (!trigger && place_meeting(x, y, Player) && !Player.inMotion && (Player.size == 1 || Player.c_orient==orient.up)) {
 	switch_on = true;
-} else {
+	trigger = true;
+	audio_play_sound(au_positive, 1, false);
+} else if (!place_meeting(x, y, Player)){
 	switch_on = false;
+	trigger = false;
+	//audio_play_sound(au_negative, 1, false);
 }
 
 if (switch_on) {

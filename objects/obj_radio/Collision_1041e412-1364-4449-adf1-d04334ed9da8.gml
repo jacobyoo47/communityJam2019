@@ -1,4 +1,5 @@
 radio_engine.radioOn = true;
+audio_play_sound(au_pickup, 1, false);
 
 switch(dialogueID){
 	case 1:

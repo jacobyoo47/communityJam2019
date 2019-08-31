@@ -18,6 +18,7 @@ if(gameOver){
 			mainText = "Rogue piece detected. Shutting down main thread...";
 			break;
 		case 4:
+			audio_stop_sound(au_tetrisBack);
 			room_goto(lvl1);
 	}
 	draw_text(gameOverX - string_width(mainText)/2, gameOverY, mainText);

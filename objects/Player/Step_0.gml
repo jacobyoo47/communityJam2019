@@ -17,6 +17,7 @@ if (changeSize) {
 
 // handle shooting
 if (keyboard_check_pressed(ord("Z")) && bulletDelay == 0 && canMove && has_gun) {
+	audio_play_sound(au_positive, 1, false);
 	shoot_bullet(bullet_velocity);
 	bulletDelay = 20;
 }

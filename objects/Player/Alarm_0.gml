@@ -16,9 +16,11 @@ if (canMove) {
 		alarm[0] = 1;
 	} else {
 		//c_orient = new_orient;
+		audio_play_sound(au_movement, 1, false);
 		handle_size_change();
 		x = target_x;
 		y = target_y;
+		if (instance_exists(obj_moves_tracker)) obj_moves_tracker.count += 1;
 		inMotion = false;
 	}
 }

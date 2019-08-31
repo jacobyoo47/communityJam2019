@@ -46,6 +46,7 @@ if(firstCall && gameOver){
 if(keyboard_check_pressed(vk_left)){
 	with(curBlock){
 		if(!place_meeting(x - 32, y, obj_tetrisBlock)){
+			audio_play_sound(au_tetrisBlock, 1, false);
 			x -= 32;
 		}
 	}
@@ -54,6 +55,7 @@ if(keyboard_check_pressed(vk_left)){
 if(keyboard_check_pressed(vk_right)){
 	with(curBlock){
 		if(!place_meeting(x + 32, y, obj_tetrisBlock)){
+			audio_play_sound(au_tetrisBlock, 1, false);
 			x += 32;
 		}
 	}

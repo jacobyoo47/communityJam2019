@@ -6,6 +6,7 @@ if(place_meeting(x, y + 16, obj_tetrisBlock)){
 	
 	isFalling = false;
 	tetris_engine.blockInPlay = false;	
+	audio_play_sound(au_tetrisFall, 1, false);
 }
 
 

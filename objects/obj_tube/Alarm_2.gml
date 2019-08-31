@@ -1,5 +1,6 @@
 /// @desc handle ball transfer
 current_ball.visible = true;
+audio_play_sound(au_tube, 1, false);
 
 switch (exit_dir) {
 	case 0: // up

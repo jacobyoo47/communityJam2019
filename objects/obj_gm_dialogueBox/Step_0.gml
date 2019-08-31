@@ -3,6 +3,8 @@ if (inDialogue && instance_exists(Player)) {
 	show_dialogue_box = true;
 	total_message_length = string_length(global.dialogueMessage[current_page]);
 	current_message = string_copy(global.dialogueMessage[current_page], 0, text_counter); 
+	if (floor(text_counter) == text_counter && text_counter != total_message_length) audio_play_sound(au_text, 1, false);
+	
 } else if (!inDialogue && instance_exists(Player)) {
 	Player.canMove = true;
 	show_dialogue_box = false;

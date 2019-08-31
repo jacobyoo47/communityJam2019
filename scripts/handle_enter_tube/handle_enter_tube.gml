@@ -23,3 +23,4 @@ switch (dir) {
 		Player.x += g_size;
 		break;
 }	
+audio_play_sound(au_tube, 1, false);

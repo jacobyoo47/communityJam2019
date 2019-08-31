@@ -22,3 +22,5 @@ switch (dir) {
 		Player.changeSize = true;
 		Player.x -= g_size;
 }
+
+audio_play_sound(au_tube, 1, false);

@@ -33,7 +33,7 @@ changeSize = false;
 canMove = true;
 inMotion = false;
 
-has_gun = true;
+has_gun = false;
 
 bullet_velocity = 8;
 

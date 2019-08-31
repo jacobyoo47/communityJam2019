@@ -6,10 +6,13 @@
 	startup = false;
 }*/
 
-if (place_meeting(x, y, obj_cube_ball)) {
+if (place_meeting(x, y, obj_cube_ball) && !trigger) {
 	switch_on = true;
-} else {
+	trigger = true
+	audio_play_sound(au_positive, 1, false);
+} else if (!place_meeting(x, y, obj_cube_ball)) {
 	switch_on = false;
+	trigger = false;
 }
 
 if (target_door_id != -1 && switch_on) {

@@ -26,3 +26,5 @@ switch (dir) {
 		Player.c_orient = orient.side_EW;
 		break;
 }
+
+audio_play_sound(au_tube, 1, false);

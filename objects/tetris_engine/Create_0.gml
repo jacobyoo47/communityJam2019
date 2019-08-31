@@ -14,5 +14,5 @@ gameOverY = display_get_gui_height() / 2;
 stage = 0;
 //global.tetrisGridSize = 32;
 global.fallSpeed = 30;
-
+audio_play_sound(au_tetrisBack, 1, true);
 randomize();
