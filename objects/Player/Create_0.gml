@@ -34,6 +34,8 @@ canMove = true;
 inMotion = false;
 m_dir = 0; // move direction for obj_ball
 
+has_gun = false;
+
 bullet_velocity = 8;
 
 alarm_frame = 0; // for grid based animation movement

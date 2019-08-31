@@ -33,9 +33,19 @@
             "enumb": 0,
             "eventtype": 4,
             "m_owner": "a466cdf3-3b9d-4c79-bcf4-ba0177c90211"
+        },
+        {
+            "id": "3d0bdb2f-3503-44ee-ae6e-a04258864f7c",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 2,
+            "m_owner": "a466cdf3-3b9d-4c79-bcf4-ba0177c90211"
         }
     ],
-    "maskSpriteId": "00000000-0000-0000-0000-000000000000",
+    "maskSpriteId": "592869c1-7eb8-4043-b747-43fb2fc86e2a",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
@@ -51,8 +61,23 @@
     "physicsShape": 1,
     "physicsShapePoints": null,
     "physicsStartAwake": true,
-    "properties": null,
+    "properties": [
+        {
+            "id": "ef6f7909-48dd-449b-93fa-d910f9319483",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "ball_id",
+            "varType": 1
+        }
+    ],
     "solid": false,
-    "spriteId": "c08da171-486f-4651-8560-84b63f3d1703",
+    "spriteId": "58476646-58cc-449a-99c2-dd7734b3d1b3",
     "visible": true
 }
