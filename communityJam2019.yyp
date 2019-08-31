@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "24fb8251-62d4-44cd-b06c-ecd6b89f8b72",
+            "Value": {
+                "id": "f9876914-3866-4cd3-9e29-0ede868cb20e",
+                "resourcePath": "sprites\\s_metalMedium\\s_metalMedium.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "25e25385-5a56-48bb-9897-6bf3a71c391d",
             "Value": {
                 "id": "a20658ba-3691-4afa-bf2d-a26e1841ea68",
@@ -324,6 +332,14 @@
                 "id": "220a5394-0e19-4db0-8079-ff7e57ed8036",
                 "resourcePath": "sprites\\s_2_EW_rotdown\\s_2_EW_rotdown.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3cfbcfe8-e661-41f9-84cd-e427b31f0176",
+            "Value": {
+                "id": "a7ae4792-6eb9-4046-9dc7-40df06c43da1",
+                "resourcePath": "objects\\obj_collisionE\\obj_collisionE.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -442,7 +458,7 @@
             "Key": "49bcee3c-d545-49fc-bf77-e58d8f4ef8ef",
             "Value": {
                 "id": "f155ee6e-64cd-4dfc-9ee8-9564ec3ae77e",
-                "resourcePath": "objects\\obj_blackhole_s1\\obj_blackhole_s1.yy",
+                "resourcePath": "objects\\obj_blackhole_s2_NS\\obj_blackhole_s2_NS.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -1075,6 +1091,14 @@
             "Value": {
                 "id": "b5ea76d5-c47d-467a-8841-f9ffd179225f",
                 "resourcePath": "sprites\\s_2_NS_rotdownward_N\\s_2_NS_rotdownward_N.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a52a45eb-3ba6-4f72-91b5-3caa0de26fb8",
+            "Value": {
+                "id": "a317aade-e0a1-489a-826c-bb5d1eeb3211",
+                "resourcePath": "sprites\\s_blackhole_s2_NS\\s_blackhole_s2_NS.yy",
                 "resourceType": "GMSprite"
             }
         },

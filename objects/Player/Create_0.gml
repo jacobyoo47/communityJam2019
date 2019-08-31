@@ -34,7 +34,7 @@ canMove = true;
 inMotion = false;
 m_dir = 0; // move direction for obj_ball
 
-has_gun = false;
+has_gun = true;
 
 bullet_velocity = 8;
 

@@ -2,7 +2,7 @@
     "id": "49bcee3c-d545-49fc-bf77-e58d8f4ef8ef",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_blackhole_s1",
+    "name": "obj_blackhole_s2_NS",
     "eventList": [
         {
             "id": "4b163923-a1c8-47f5-b793-63c9f90ad0d3",
@@ -58,6 +58,6 @@
         }
     ],
     "solid": false,
-    "spriteId": "ab9635c1-48ec-4355-b705-285eef08b03a",
+    "spriteId": "a52a45eb-3ba6-4f72-91b5-3caa0de26fb8",
     "visible": true
 }
