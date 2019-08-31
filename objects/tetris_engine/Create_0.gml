@@ -4,6 +4,7 @@ blockWidth = 0;
 blockHeight = 0;
 curBlock = 0;
 lastRotation = 0;
+gameOver = false;
 
 temp_block = 0; // for switching blocks
 temp_x = 0;
