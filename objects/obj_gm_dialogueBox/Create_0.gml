@@ -20,6 +20,7 @@ text_width = screen_width - dialogue_x*2 - g_size*2;
 
 color = c_white;
 text_col = c_black;
+dialogue_timer = 0;
 
 // for scrolling text
 total_message_length = 0;

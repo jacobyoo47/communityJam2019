@@ -12,16 +12,23 @@ if (inDialogue && instance_exists(Player)) {
 if (inDialogue && text_counter < total_message_length) {
 	text_counter++;
 	
-	if (keyboard_check_pressed(ord("Z"))) text_counter = total_message_length;
-	
+	if (keyboard_check_pressed(ord("Z")) && dialogue_timer == 0) {
+		text_counter = total_message_length;
+		dialogue_timer = 10;
+	}
 } else if (inDialogue && text_counter == total_message_length) {
-	if (keyboard_check_pressed(ord("Z")) && current_page < (global.dialogueSize-1)) {
+	if (keyboard_check_pressed(ord("Z")) && dialogue_timer == 0 && current_page < (global.dialogueSize-1)) {
 		current_page++;
 		text_counter = 0;
-	} else if (keyboard_check_pressed(ord("Z"))) {
+		dialogue_timer = 10;
+	} else if (keyboard_check_pressed(ord("Z")) && dialogue_timer == 0) {
 		Player.canMove = true;
 		inDialogue = false;
 	}
+}
+
+if (dialogue_timer > 0) {
+	dialogue_timer--;
 }
 
 // temp debugging

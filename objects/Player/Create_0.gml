@@ -41,6 +41,8 @@ bullet_velocity = 8;
 alarm_frame = 0; // for grid based animation movement
 new_orient = -1;
 
+current_checkpoint = 0;
+
 // for tubes
 exiting = false;
 

@@ -92,7 +92,8 @@ switch (Player.size) {
 		new_EW_rotdwr_W = s_4_EW_rotdownward_W;
 		new_EW_nspin_1 = s_4_EW_rotup;
 		new_EW_nspin_2 = s_4_EW_rotdown;
-		game_end(); // for now, game ends when size 0 is reached.
+		Player.x = current_checkpoint.x;
+		Player.y = current_checkpoint.y;
 		break;
 }
 
