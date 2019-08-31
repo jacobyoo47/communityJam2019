@@ -21,5 +21,13 @@ switch(dialogueID){
 		global.dialogueMessage[0] = "See that pipe? Things like that are littered around the facility.";
 		global.dialogueMessage[1] = "In some cases, you can actually use that to navigate to different, hard-to-reach areas!";
 		global.dialogueMessage[2] = "Try interacting with the pipe. Make sure to orient yourself parallel to the pipe's entrance.";
+		break;
+	case 4:
+		obj_gm_dialogueBox.inDialogue = true;
+		global.dialogueSize = 2;
+		global.dialogueMessage[0] = "Alright! Great job on getting this far, you're almost out!" + 
+									" All you have to do is make it to that final door at the end of this room and you're home free!";
+		global.dialogueMessage[1] = "Be careful though! This room is filled to the brim with traps and turrets.";
+		break;
 }
 instance_destroy();

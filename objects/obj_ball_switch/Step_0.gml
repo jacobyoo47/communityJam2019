@@ -1,10 +1,10 @@
-if (startup) { // find target door
+/*if (startup) { // find target door
 	with (obj_door) {
 		if (int_id == other.target_door_id) other.target_door = id;
 		show_debug_message("successfully found target door");
 	}
 	startup = false;
-}
+}*/
 
 if (place_meeting(x, y, obj_cube_ball)) {
 	switch_on = true;
@@ -13,7 +13,11 @@ if (place_meeting(x, y, obj_cube_ball)) {
 }
 
 if (target_door_id != -1 && switch_on) {
-	target_door.open = true;
+	with (obj_door) {
+		if (int_id == other.target_door_id) open = true;
+	}
 } else if (target_door_id != -1 && !switch_on) {
-	target_door.open = false;
+	with (obj_door) {
+		if (int_id == other.target_door_id) open = false;
+	}
 }
