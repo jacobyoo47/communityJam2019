@@ -14,7 +14,7 @@ if (changeSize) {
 }
 
 // handle shooting
-if (keyboard_check(ord("Z")) && bulletDelay == 0) {
+if (keyboard_check_pressed(ord("Z")) && bulletDelay == 0 && canMove) {
 	shoot_bullet(bullet_velocity);
 	bulletDelay = 20;
 }
