@@ -1,4 +1,4 @@
-if (current_dist < target_dist) {
+if (current_dist < target_dist && inMotion) {
 	switch (bullet_dir) {
 		case 0: // up
 			y -= ball_speed;
@@ -19,4 +19,8 @@ if (current_dist < target_dist) {
 	current_dist = 0;
 	target_dist = 0;
 	inMotion = false; 
+	if (inTube) {
+		alarm[1] = shift_speed;
+	}
+
 }

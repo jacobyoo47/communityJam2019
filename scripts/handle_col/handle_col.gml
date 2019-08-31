@@ -24,7 +24,8 @@ switch (dir) {
 			for (col_i=0; col_i<p_size; col_i++) {
 				col_buffer = col_i * g_size;
 				col = instance_position(x+col_buffer, y-g_size, col_obj);
-				if (col != noone) return false;
+				ball = instance_position(x+col_buffer, y-g_size, ball_obj);
+				if (col != noone || ball != noone) return false;
 			}
 			return true; // if no collisions are found, return true.
 			
@@ -55,7 +56,8 @@ switch (dir) {
 			for (col_i=0; col_i<p_size; col_i++) {
 				col_buffer = col_i * g_size;
 				col = instance_position(x+col_buffer, y+g_size, col_obj);
-				if (col != noone) return false;
+				ball = instance_position(x+col_buffer, y+g_size, ball_obj);
+				if (col != noone || ball != noone) return false;
 			}
 			return true; // if no collisions are found, return true.
 			
@@ -64,8 +66,7 @@ switch (dir) {
 			for (col_i=1; col_i<p_size+1; col_i++) {
 				col_buffer = col_i * g_size;
 				col = instance_position(x, y+col_buffer, col_obj);
-				if (p_size>1) ball = instance_position(x, y+col_buffer, ball_obj);
-				else ball = noone;
+				ball = instance_position(x, y+col_buffer, ball_obj);
 				if (col != noone || ball != noone) return false;
 			}
 			return true;
@@ -79,14 +80,14 @@ switch (dir) {
 			for (col_i=0; col_i<p_size; col_i++) {
 				col_buffer = col_i * g_size;
 				col = instance_position(x+g_size, y+col_buffer, col_obj);
-				if (col != noone) return false;
+				ball = instance_position(x+g_size, y+col_buffer, ball_obj);
+				if (col != noone || ball != noone) return false;
 			}
 			return true;
 			
 		} else if (p_orient == orient.side_EW) {
 			col = instance_position(x+g_size*p_size, y, col_obj);
-			if (p_size>1) ball = instance_position(x+g_size*p_size, y, ball_obj);
-			else ball = noone;
+			ball = instance_position(x+g_size*p_size, y, ball_obj);
 			if (col == noone && ball == noone) return true;
 			else return false;
 			
@@ -95,8 +96,7 @@ switch (dir) {
 			for (col_i=1; col_i<p_size+1; col_i++) {
 				col_buffer = col_i * g_size;
 				col = instance_position(x+col_buffer, y, col_obj);
-				if (p_size>1) ball = instance_position(x+col_buffer, y, ball_obj);
-				else ball = noone;
+				ball = instance_position(x+col_buffer, y, ball_obj);
 				if (col != noone || ball != noone) return false;
 			}
 			return true;
@@ -110,14 +110,14 @@ switch (dir) {
 			for (col_i=0; col_i<p_size; col_i++) {
 				col_buffer = col_i * g_size;
 				col = instance_position(x-g_size, y+col_buffer, col_obj);
-				if (col != noone) return false;
+				ball = instance_position(x-g_size, y+col_buffer, ball_obj);
+				if (col != noone || ball != noone) return false;
 			}
 			return true;
 			
 		} else if (p_orient == orient.side_EW) {
 			col = instance_position(x-g_size, y, col_obj);
-			if (p_size>1) ball = instance_position(x-g_size, y, ball_obj);
-			else ball = noone;
+			ball = instance_position(x-g_size, y, ball_obj);
 			if (col == noone && ball == noone) return true;
 			else return false;
 			
@@ -126,8 +126,7 @@ switch (dir) {
 			for (col_i=1; col_i<p_size+1; col_i++) {
 				col_buffer = col_i * g_size;
 				col = instance_position(x-col_buffer, y, col_obj);
-				if (p_size>1) ball = instance_position(x-col_buffer, y, ball_obj);
-				else ball = noone;
+				ball = instance_position(x-col_buffer, y, ball_obj);
 				if (col != noone || ball != noone) return false;
 			}
 			return true;
