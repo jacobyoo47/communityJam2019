@@ -16,3 +16,7 @@ switch (dir) {
 if (place_meeting(x, y, obj_collision)) {
 	instance_destroy();
 }
+if (place_meeting(x, y, obj_cube_ball) && !triggered) {
+	triggered = true;
+	alarm[0] = 2;
+}

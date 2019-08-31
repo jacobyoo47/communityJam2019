@@ -92,9 +92,13 @@ switch (Player.size) {
 		new_EW_rotdwr_W = s_4_EW_rotdownward_W;
 		new_EW_nspin_1 = s_4_EW_rotup;
 		new_EW_nspin_2 = s_4_EW_rotdown;
+
+		Player.canMove = false;
 		Player.x = current_checkpoint.x;
 		Player.y = current_checkpoint.y;
-		Player.size = 1;
+		Player.size = Player.checkpoint_size;
+		Player.changeSize = true;
+		Player.alarm[1] = 10;
 		break;
 }
 

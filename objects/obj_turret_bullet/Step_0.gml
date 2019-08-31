@@ -14,8 +14,13 @@ switch (dir) {
 }
 
 if (place_meeting(x, y, Player)) {
-	Player.size--;
-	Player.changeSize = true;
+	if (Player.size > 1) {
+		Player.size--;
+		Player.changeSize = true;
+	} else {
+		player_death();
+	}
+	
 	instance_destroy();
 }
 if (place_meeting(x, y, obj_collision)) {

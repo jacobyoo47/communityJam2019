@@ -1,5 +1,7 @@
-//show_debug_message(c_orient);
+
 get_input();
+
+
 
 if (canMove) handle_movement();
 
@@ -20,6 +22,11 @@ if (keyboard_check_pressed(ord("Z")) && bulletDelay == 0 && canMove && has_gun) 
 }
 if (bulletDelay > 0) {
 	bulletDelay--;
+}
+
+// reset button
+if (keyboard_check_pressed(ord("R"))) {
+	player_death();
 }
 
 // debugging

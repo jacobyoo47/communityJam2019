@@ -407,6 +407,14 @@
             }
         },
         {
+            "Key": "47158f46-4084-4f8b-959b-02be2f6551c3",
+            "Value": {
+                "id": "19c7baa8-28a0-44c9-81cb-de378a977c07",
+                "resourcePath": "objects\\obj_contact_switch\\obj_contact_switch.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "476beaa6-0937-4c34-bd51-f45ade852337",
             "Value": {
                 "id": "7b66b0cb-fcdf-4cde-bca3-06c9008fd14a",
@@ -636,6 +644,14 @@
                 "id": "ae01c1fc-a2b5-498f-952f-e07dd22a3650",
                 "resourcePath": "objects\\obj_tetGround\\obj_tetGround.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6708a0a8-9e4d-484c-ba97-e9f0d0d8dad8",
+            "Value": {
+                "id": "044680c1-9c6a-4509-ae0e-7ada69e5a447",
+                "resourcePath": "sprites\\s_contact_switch\\s_contact_switch.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

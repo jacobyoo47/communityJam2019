@@ -24,6 +24,7 @@ if (inDialogue && text_counter < total_message_length) {
 	} else if (keyboard_check_pressed(ord("Z")) && dialogue_timer == 0) {
 		current_page = 0;
 		Player.canMove = true;
+		Player.alarm[0] = 1;
 		inDialogue = false;
 	}
 }
